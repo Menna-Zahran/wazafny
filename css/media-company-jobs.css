@@ -1,0 +1,58 @@
+/*start mobile media*/
+@media(max-width: 480px){
+
+    article .image h1 {font-size: 50px;}
+
+    h2{    font-size: 20px;
+        line-height: 1.7;
+    }
+
+    .col-xs-8{
+        width: 100%;
+    }
+
+    .col-xs-4{width: 100%    }
+
+
+    .right-side a{font-size: 13px;}
+
+    article .our-page .right-side .unavailable-jobs li .row,
+    article .our-page .right-side .available-jobs li .row{display: block}
+
+    article .our-page .image img {
+        width: 80%;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+
+    article .our-page .right-side ul li i {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+    article .our-page .right-side ul li h4,
+    article .our-page .right-side ul li span{font-size: 12px}
+
+
+    article .our-page .left-side .share button{  font-size: 20px;    }
+
+
+
+}
+/*end mobile media*/
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+    .right-side a{font-size: 16px;}
+
+    article .our-page .right-side ul li i {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    article .our-page .right-side ul li h4,
+    article .our-page .right-side ul li span{font-size: 13px}
+
+}
+/*end tablet media*/

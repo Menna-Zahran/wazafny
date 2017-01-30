@@ -1,0 +1,166 @@
+
+
+h2
+{
+    color:#666
+}
+
+h3{
+    margin: 15px 10px;
+    color: #777;
+    min-width: 130px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+h4{
+    font-size: 16px;
+    color:#666;
+    margin-top: 0;
+}
+
+h5{
+    font-family: Jomhuria;
+    color: #777
+}
+
+/*************************************************************************************************************/
+
+
+article{
+    top:60px;
+    position: relative;
+    padding-top:40px;
+    padding-bottom: 40px;
+    margin-bottom: 60px;
+}
+
+article .our-page .right-side{
+    float: right;
+    direction:rtl;
+}
+
+
+article .our-page section{
+    background-color: #fff;
+    box-shadow: 0 0 2px 2px #eee;
+    margin-bottom: 15px;
+    padding: 10px 5%;
+}
+
+/*right side*/
+
+article .right-side section{
+    padding-top: 25px;
+}
+
+article .our-page .right-side .job .row{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+/*start search*/
+
+#custom-search-input{
+    margin: 25px 0;
+    padding: 3px;
+    border: solid 1px #E4E4E4;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-right: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-right: solid 1px #ccc;
+}
+
+#custom-search-input .fa-search{
+    font-size: 23px;
+    color: #337ab7;
+}
+/*end search*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:#555
+}
+
+td, th {
+    text-align: right;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+table tr td:nth-of-type(3){
+    text-align: center;
+}
+
+
+article .our-page .right-side ul li{
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+input, button, select, textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+
+
+/********************************************************************************************/
+
+/*left side of the page*/
+
+article .our-page .left-side{
+    float: left;
+    direction: rtl;
+    padding: 0;
+}
+
+
+article .our-page .left-side .filter-results ul{
+    padding:0
+}
+
+article .our-page .left-side .filter-results ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+article .our-page .left-side .filter-results input{
+    margin-left: 10px;
+}
+
+article .our-page .left-side .filter-results input[type="checkbox"]{
+    padding: 10px;
+    width: 15px;
+}

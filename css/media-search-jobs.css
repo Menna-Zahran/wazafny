@@ -1,0 +1,45 @@
+
+
+
+
+
+
+
+
+
+/*start mobile media*/
+@media(max-width: 480px){
+
+    table tr th:nth-of-type(3),
+    table tr th:nth-of-type(4),
+    table tr th:nth-of-type(5),
+    table tr td:nth-of-type(3),
+    table tr td:nth-of-type(4),
+    table tr td:nth-of-type(5){
+        display: none;
+    }
+
+    article .our-page section {padding: 10px 0;    }
+
+    .job h3{margin-right: 30px}
+
+}
+/*end mobile media*/
+
+
+
+
+
+
+
+
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+    th,td{padding: 8px 3px}
+
+
+
+}
+/*end tablet media*/

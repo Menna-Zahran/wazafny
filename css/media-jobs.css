@@ -1,0 +1,104 @@
+
+
+
+
+
+
+/*start mobile media*/
+@media(max-width: 480px){
+    article .our-page .right-side .job .row {
+        display: block;}
+
+    h2{font-size: 13px}
+
+    h3{
+        font-size: 12px;
+        min-width: 69px;
+        margin:4px 5px
+    }
+
+    h4 {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    article .our-page section .row>div{padding: 0}
+
+    article .our-page .right-side .job-name {
+        font-size: 13px;
+        padding-right: 1px;}
+
+    article .our-page .right-side ul li {font-size: 12px;}
+
+    article .our-page .right-side ul li i {
+        margin-top: 5px;
+        width: 10px;
+    }
+
+    article .our-page .right-side .job img { margin: 15px 0;    }
+
+
+    article .our-page .right-side .job .apply .row{display:block}
+
+    article .our-page .right-side .job .apply .row>div{border:1px solid #eee;padding: 7px}
+
+    article .our-page .right-side .job .apply .row>div:last-of-type{border:1px solid #eee}
+
+    article .our-page .right-side .job .apply button {
+        font-size: 14px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+
+    /*********left side********************/
+
+    article .our-page .left-side h2 {
+        font-size: 18px;
+    }
+
+    article .our-page .left-side .similar-jobs .job .row{display: block}
+
+    article .our-page button {font-size: 14px;}
+
+
+}
+/*end mobile media*/
+
+
+
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+    h2{font-size:19px}
+
+    article .our-page .right-side .job-name{
+        font-size: 19px;
+        padding-right: 5px;
+    }
+
+    article .our-page .right-side ul li i {
+        font-size: 12px;
+        margin-top: 4px;
+        width: 6px;
+    }
+
+    h3 {
+        font-size: 15px;
+        min-width: 90px;
+    }
+
+    .job a{font-size: 15px;}
+
+    article .our-page .right-side .job .apply .row{display:block}
+
+    article .our-page .right-side .job .apply .row>div{border:1px solid #eee;padding: 7px}
+
+    article .our-page .right-side .job .apply .row>div:last-of-type{border:1px solid #eee}
+
+
+
+
+
+}

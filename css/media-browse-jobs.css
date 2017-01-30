@@ -1,0 +1,75 @@
+
+
+
+
+/*start mobile media*/
+@media(max-width: 480px) {
+
+    .col-xs-8{
+        width: 100%;
+    }
+
+    .col-xs-4{width: 100%    }
+
+    article .image h1{font-size: 40px}
+
+    article .browse-jobs .job .row ul li h3 {   font-size: 18px;}
+
+
+    article .browse-jobs .job .row {
+        display: block
+    }
+
+    article .browse-jobs .job img {
+        width: 70%;
+        height: 100px;
+    }
+    article .browse-jobs .job .row ul li { font-size: 13px;}
+
+    article .browse-jobs .job button{font-size: 13px;}
+
+}
+
+
+
+
+
+
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+
+    article .image h1 {font-size: 70px;}
+
+    article .browse-jobs .job h3{font-size: 15px}
+
+
+    article .browse-jobs .job .row ul li{font-size: 12px}
+
+    article .browse-jobs .job button{font-size: 15px}
+
+    article .browse-jobs .job .row i { margin-left: 2px;}
+
+}
+/*end smart phone and tablet media*/
+
+/*start medium screen media********************************************************************************************/
+@media(min-width: 992px)and (max-width: 1199px){
+
+
+
+
+}
+/*end medium screen*/
+
+
+
+
+
+
+
+
+
+
+

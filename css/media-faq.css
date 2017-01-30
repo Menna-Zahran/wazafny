@@ -1,0 +1,43 @@
+
+/*start mobile media*/
+@media(max-width: 480px){
+
+
+    article section .container .row {display: block;}
+
+
+}
+/*end mobile media*/
+
+
+
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+
+    article section .container {    width: 90%;   }
+
+    article section .container .quest_ans div:first-of-type h3 {   font-size: 16px;}
+
+    article section .container .quest_ans h4 {   font-size: 15px;}
+
+
+}
+/*end smart phone and tablet media*/
+
+
+
+
+/*start small screen media*********************************************************************************************/
+@media(min-width: 768px)and (max-width: 991px){
+
+    article section .container {    width: 90%;   }
+
+    article section .container .quest_ans div:first-of-type h3 {   font-size: 16px;}
+
+    article section .container .quest_ans h4 {   font-size: 15px;}
+
+
+}
+/*end small screen media*/

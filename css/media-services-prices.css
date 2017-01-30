@@ -1,0 +1,112 @@
+
+/*start mobile media*/
+@media(max-width: 480px){
+
+    #owl-demo-testimonials .item {width:100%}
+
+    #owl-demo-testimonials .item { padding: 15px;}
+
+    .testimonials .lead {
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    .person{     display: flex;  }
+
+    #owl-demo-testimonials .item .person img {
+        width: 50px;
+        margin-left: 0}
+
+
+    h4{font-size: 15px}
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        position: absolute;
+        top: 86%;
+        left: 34%;
+        font-size: 20px;
+        width: 34px;
+    }
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        right: 4%;
+        position: absolute;
+        top: 86%;
+        left: 55%;
+        font-size: 20px;
+        width: 34px;
+    }
+    #owl-demo-prices .owl-pagination {left: 0;}
+
+
+}
+/*end mobile media*/
+
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+    h4{font-size: 15px}
+
+    #owl-demo-testimonials .item {width:100%}
+
+    .testimonials .lead {
+        font-size: 14px;
+        padding: 0 40px;
+    }
+    #owl-demo-testimonials .item {  padding: 15px}
+
+    #owl-demo-testimonials .item .person img {
+        width: 100px;
+        margin-left: 0}
+
+    .person{     display: flex;  }
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        top: 72%;
+        right: 5%;
+    }
+
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        top: 72%;
+        left: 64%;
+    }
+
+
+}
+/*end smart phone and tablet media*/
+
+
+/*start small screen media*********************************************************************************************/
+@media(min-width: 768px)and (max-width: 991px){
+
+    #owl-demo-testimonials .item {width:90%}
+
+    .testimonials .lead{font-size: 16px;}
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {
+        top: 75%;
+        right: 13%;
+    }
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        top: 75%;
+        left: 68%;
+    }
+
+
+}
+/*end small screen media*/
+
+
+/*start medium screen media********************************************************************************************/
+@media(min-width: 992px)and (max-width: 1199px){
+
+
+    #owl-demo-testimonials .item {width:80%}
+
+    .owl-theme .owl-controls .owl-buttons .owl-next {    top: 75%;}
+
+    .owl-theme .owl-controls .owl-buttons .owl-prev {
+        top: 75%;
+        left: 69%;
+    }
+
+}

@@ -1,0 +1,89 @@
+
+
+
+
+.title{
+    top:60px;
+    position: relative;
+    background-color: #333;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 60px;
+}
+
+.title .row{
+    margin-right: 0;
+}
+
+.title img{
+    height:80px
+}
+
+.title h2{font-size: 25px}
+
+.title h1,.title h2{
+    color:#fff;
+}
+
+article{
+    margin: auto;
+    direction: rtl;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+article section{
+    width:50%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 2px 2px #eee;
+    -moz-box-shadow: 0 0 2px 2px #eee;
+    box-shadow: 0 0 2px 2px #eee;
+    margin:20px auto;
+    padding:25px 3%;
+}
+
+article .form .row{
+    direction: rtl;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+
+article .form label
+{
+    display: inline;
+    font-size: 14px;
+    color: #777;
+}
+
+article .form label span{
+    color:#999;
+}
+
+article .form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 1px 1px #eee;
+    border-radius: 3px;
+}
+
+article .form h3{
+    display: inline-block;
+}
+
+article .form  .btn{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+
+

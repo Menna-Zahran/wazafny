@@ -1,0 +1,25 @@
+
+
+/*start mobile media*/
+@media(max-width: 480px){
+
+    article section{    width:100%}
+
+    h1{font-size: 25px}
+
+    article section form label, article section form a {font-size: 12px; }
+
+    article section form .btn {font-size: 15px;}
+
+}
+/*end mobile media */
+
+
+
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+    article section{    width:100%}
+}
+/*end smart phone & tablet*/

@@ -1,0 +1,96 @@
+
+
+
+.title{top:60px;
+    position: relative;
+    background-color:#ebe7e7;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 90px;
+}
+
+.title h1,.title h3{
+    color: #e74c3c;
+}
+
+.title i{
+    font-size: 40px;
+    color: #e74c3c;
+    background: #f1f1f1;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    height: 75px;
+    line-height: 75px;
+    margin: 15px;
+    -webkit-transition: .5s all ease-in-out;
+    -moz-transition: .5s all ease-in-out;
+    -o-transition: .5s all ease-in-out;
+    transition: .5s all ease-in-out;
+}
+
+.title i:hover{
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+
+article{
+    width:90%;
+    margin: auto;
+    direction: rtl;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
+
+.warning h4:first-of-type{
+    background-color: #ede9e9;
+    padding:15px;
+    line-height: 1.7;
+}
+
+article section{
+    width: 60%;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 2px 2px #eee;
+    -moz-box-shadow: 0 0 2px 2px #eee;
+    box-shadow: 0 0 2px 2px #eee;
+    margin: 0 auto;
+    padding: 35px 2%;
+}
+
+article section>div .row{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+
+article section  input,
+article section textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 1px 1px #eee;
+    direction: rtl;border-radius: 5px;
+}
+
+article section textarea{height: 180px;}
+
+
+article section  .btn{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+

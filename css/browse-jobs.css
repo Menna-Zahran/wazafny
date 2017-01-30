@@ -1,0 +1,117 @@
+
+
+article{
+    top:60px;
+    position: relative;
+    padding-bottom: 50px;
+}
+/*start section 1 header*/
+
+article .header{
+    background: url("../images/browse-jobs/8165653-3d-men-holding-the-word-work-Stock-Photo.png") no-repeat center center;
+  /*  height: 400px;
+    background-size: cover;*/
+}
+
+article .image{
+    background-color: rgba(235, 235, 235, 0.82);
+    height: 250px;
+}
+
+article .image h1{
+    font-size: 90px;
+    padding-top: 60px;
+    margin-top: 0;
+}
+
+/*end section 1 header*/
+
+
+/*start section 2 browse jobs*/
+
+article .browse-jobs{
+    direction: rtl;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+article .browse-jobs .jobs{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+article .browse-jobs .job
+{
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 0 1px 1px #f7f7f7;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    color: #666
+}
+
+article .browse-jobs .job .row{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+
+article .browse-jobs .job h3{
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+article .browse-jobs .job .row ul{padding: 0}
+
+article .browse-jobs .job .row ul li{
+    list-style: none;
+}
+
+
+article .browse-jobs .job .row a{
+    color: #117fc1;
+}
+
+article .browse-jobs .job .row i{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+article .browse-jobs .job img{
+    width:100%;
+    float: left;
+}
+
+article .browse-jobs .job button{
+    width: 100%;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+
+article .browse-jobs .job button:hover{
+    background-color: #fff;
+    color: #117fc1;
+    border:1px solid #117fc1;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+
+/*end section 2 browse jobs*/
+

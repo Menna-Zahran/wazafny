@@ -1,0 +1,269 @@
+
+h2
+{
+    color:#666
+}
+
+h3{
+    margin: 4px 10px;
+    color: #777;
+    font-size: 18px;
+    min-width: 130px;
+}
+
+h4{
+    font-size: 16px;
+    color:#666;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+h5{
+    font-family: Jomhuria;
+    color: #777
+}
+
+i{color:#999;width:20px;}
+
+.flex{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+}
+
+
+article .our-page  button{
+    padding: 5px;
+    font-size: 22px;
+    margin-top: 5px;
+    border: 1px solid #fff;
+}
+
+
+article .our-page button:hover{
+    background-color: #fff;
+    color: #117fc1;
+    border:1px solid #117fc1;
+    box-shadow: 1px 1px 1px 1px;
+}
+
+article .our-page   ul{padding: 0}
+
+a{color:#117fc1}
+
+a:hover{color:#117fc1}
+
+
+
+/*start image*****************************************************************************/
+
+/*.header{
+    background: url("../images/job/job.png") no-repeat center center;
+     *//* height: 250px;
+      background-size: cover;*//*
+}
+
+ .image{
+    background-color: rgba(235, 235, 235, 0.82);
+    height: 250px;
+}
+
+.image h1{
+    font-size: 100px;
+    padding-top: 60px;
+}*/
+
+/*end image*************************************************************************************/
+
+
+article{
+    padding-top:40px;
+    padding-bottom: 100px;
+    top:60px;
+    position: relative;
+}
+
+article .our-page .right-side{
+    float: right;
+    direction:rtl;
+}
+
+
+article .our-page section{
+    background-color: #fff;
+    box-shadow: 0 0 2px 2px #eee;
+    margin-bottom: 15px;
+    padding: 10px 4%;
+}
+
+article .our-page .right-side .job .row{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+
+
+article .our-page .right-side ul li{
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+article .our-page .right-side .job-name{
+    font-size: 30px;
+    padding-right:30px;
+    margin-bottom: 0;
+    -webkit-transition: 1s all ease;
+    -moz-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    transition: 1s all ease;
+}
+
+
+article .our-page .right-side .job-name:hover{
+    text-decoration: none;
+    -webkit-transform: translate3d(0,-5px,0) scale(1.05,1.05);
+    -moz-transform: translate3d(0,-5px,0) scale(1.05,1.05);
+    -o-transform: translate3d(0,-5px,0) scale(1.05,1.05);
+    transform: translate3d(0,-5px,0) scale(1.05,1.05);
+}
+
+article .our-page .right-side ul li i{
+    margin-top: 10px;
+}
+
+
+article .our-page .right-side .job img{
+    width: 100%;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+
+article .our-page .right-side .job .apply{
+    border-top: 1px solid #f3f3f3;
+    padding:10px;
+    color:#666;
+}
+
+
+article .our-page .right-side .job .apply .row>div{
+    border-left: 1px solid #f3f3f3;
+}
+
+article .our-page .right-side .job .apply .row>div:last-of-type{
+    border:none;
+}
+
+
+article .our-page .right-side .job .apply h2{
+    margin:0;
+}
+
+article .our-page .right-side .job .apply h3{
+    margin:5px;
+}
+
+article .our-page .right-side .job .apply button{
+    width: 50%;
+}
+
+/*left side of the page*/
+
+article .our-page .left-side{
+    float: left;
+    direction: rtl;
+    padding: 0;
+}
+
+article .our-page .left-side h2{font-size: 25px}
+
+article .our-page .left-side .Complaint{padding:30px;}
+
+article .our-page .left-side .Complaint a{
+    font-size: 20px;
+}
+
+/*start similar jobs in aside*/
+
+article .our-page .left-side .similar-jobs .job
+{
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding:5px 15px;
+    font-size: 16px;
+    color:#666;
+
+}
+
+
+article .our-page .left-side .similar-jobs .job .row{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+
+article .our-page .left-side .job-name{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+article .our-page .left-side .similar-jobs .job h3{margin-top: 5px;}
+
+article .our-page .left-side .similar-jobs ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+
+article .our-page .left-side .similar-jobs .job .row a{
+    color: #117fc1;
+}
+
+article .our-page .left-side .similar-jobs .job .row i{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+article .our-page .left-side .similar-jobs .job img{
+    width:60px;
+    float: left;
+}
+
+article .our-page .left-side .similar-jobs button{
+    width:100%;
+}
+
+/*end similar jobs in aside*/
+
+/*start links in aside*/
+
+article .our-page .left-side .links ul li,
+article .our-page .left-side .jobs ul li{
+    list-style: none;
+    border-bottom: 1px solid #dddddd;
+    font-size: 16px;
+    padding: 10px;
+}
+
+article .our-page .left-side .links ul li:last-of-type,
+article .our-page .left-side .jobs ul li:last-of-type{
+    border: none;
+}
+
+/*end links in aside*/
+
+

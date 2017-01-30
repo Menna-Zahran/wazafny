@@ -1,0 +1,166 @@
+
+
+h2
+{
+    font-size: 25px;
+    color:#666;
+    margin-top: 0;
+    margin-bottom: 20px
+}
+
+h3{
+    margin: 6px 10px;
+    color: #777;
+    font-size: 20px;
+    min-width: 100px;
+}
+
+h4{
+    font-size: 16px;
+    color:#666;
+    font-weight: bold;
+}
+
+h5{
+    font-family: Jomhuria;
+    color: #777
+}
+
+i {
+    color: #777;
+    padding: 0 7px;
+}
+
+.flex{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+}
+
+ul{padding: 0}
+
+a{color:#117fc1}
+
+a:hover{color:#117fc1}
+
+
+
+/**********************************************************************************************************/
+
+article .our-page .image img{
+    width: 100%;
+}
+
+article{
+    top:60px;
+    position: relative;
+    padding-top:40px;
+    padding-bottom: 100px;
+}
+
+/* start right side ** available &&& disavailable jobs*/
+
+article .our-page .right-side{
+    float: right;
+    direction:rtl;
+}
+
+article .our-page section{
+    background-color: #fff;
+    box-shadow: 0 0 2px 2px #eee;
+    margin-bottom: 15px;
+    padding: 10px 4%;
+}
+
+article .our-page .right-side .available-jobs li .row,
+article .our-page .right-side .unavailable-jobs li .row{
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+}
+
+article .our-page .right-side .available-jobs>ul>li,
+article .our-page .right-side .unavailable-jobs>ul>li{
+    list-style: none;
+    font-size: 20px;
+    border-bottom: 1px solid #eee;
+    padding: 10px;
+}
+
+article .our-page .right-side ul li:last-of-type{
+    border: none;
+}
+
+article .our-page .right-side ul li .image{
+    margin: auto;
+}
+
+article .our-page .image img{
+    width: 100%;
+}
+
+article .our-page .right-side ul li i{
+    margin-top: 10px;
+}
+
+/*end right side */
+
+
+
+/*start left side ***/
+
+article .our-page .left-side{
+    float: left;
+    direction: rtl;
+    padding: 0;
+}
+
+article .our-page .left-side .share button{
+    font-family: Mirza;
+    font-size: 20px;
+}
+
+article .our-page .left-side .share i{
+    color:#fff;
+    width: auto;
+    padding:5px 10px;
+    font-size: 16px;
+}
+
+
+article .our-page .left-side .share,
+article .our-page .left-side .Complaint{padding:30px;}
+
+article .our-page .left-side .Complaint a{
+    font-size: 20px;
+}
+
+article .our-page .left-side .jobs ul li{
+    list-style: none;
+    border-bottom: 1px solid #dddddd;
+    font-size: 18px;
+    padding: 10px;
+}
+article .our-page .left-side .jobs ul li:last-of-type{
+    border: none;
+}
+
+
+
+/*end left side***/
+
+
+
+
+
+
+
+
+
+

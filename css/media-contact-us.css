@@ -1,0 +1,31 @@
+
+/*start mobile media*/
+@media(max-width: 480px){
+
+
+    article section {   width: 100%;}
+
+    article section>div .row{display: block}
+
+}
+/*end mobile media*/
+
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+    h4{font-size: 15px}
+
+    article section {   width: 100%;}
+
+}
+/*end smart phone and tablet media*/
+
+
+/*start small screen media*********************************************************************************************/
+@media(min-width: 768px)and (max-width: 991px){
+
+    article section {   width: 70%;}
+
+}
+/*end small screen media*/

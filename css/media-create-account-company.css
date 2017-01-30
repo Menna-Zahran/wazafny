@@ -1,0 +1,74 @@
+
+/*start mobile media*/
+@media(max-width: 480px){
+
+    h1,h2{font-size: 25px;line-height: 1.7}
+
+    article h3{font-size: 16px;line-height: 1.7}
+
+    article h4 {
+        font-size: 13px;
+        line-height: 1.6;}
+
+    article section{width: 86%}
+
+
+    article section>div>span {
+        right: -18%;
+        padding: 0 7px;
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 12px;
+        direction: rtl;
+        float: right;
+    }
+
+    article section>div .row{display: block}
+
+    article section input, article section select {font-size: 13px;}
+
+
+
+}
+/*end mobile media*/
+
+
+
+
+
+
+
+
+/*start smart phone and tablet media***********************************************************************************/
+@media(min-width: 481px)and (max-width: 767px){
+
+    article section{width: 86%}
+
+    article section>div>span {     right: -14%;}
+
+
+}
+/*end smart phone and tablet media*/
+
+/*start small screen media*********************************************************************************************/
+@media(min-width: 768px)and (max-width: 991px){
+
+
+    article section{width: 80%}
+
+    article section>div>span {     right: -11%;}
+}
+/*end small screen media*/
+
+/*start medium screen media********************************************************************************************/
+@media(min-width: 992px)and (max-width: 1199px){
+
+    article section{width: 70%}
+
+    article section>div>span {     right: -11%;}
+
+
+}
+/*end medium screen media*/
